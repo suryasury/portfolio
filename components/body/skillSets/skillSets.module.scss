@@ -1,0 +1,68 @@
+.container {
+  background-color: #24263a;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .mainContent {
+    width: 80%;
+    padding: 50px 0 100px 0;
+    .header {
+      //   width: 50%;
+      h1 {
+        font-size: 3rem;
+        color: #ff4a57;
+        // color: #43a46f;
+      }
+      .underLine {
+        margin: 10px 0;
+        width: 8%;
+        height: 5px;
+        background-color: #ff4a57;
+        // background-color: #43a46f;
+      }
+    }
+    .skillSetContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 30px;
+      gap: 50px;
+      .skillSetCards {
+        width: 250px;
+        background-color: #2b2d40;
+        padding: 30px;
+        .cardLogo {
+          margin: 20px 0 10px 0;
+          width: 50px;
+          .logo path {
+            fill: #ff4a57;
+            // fill: #43a46f;
+          }
+        }
+        .cardContent {
+          //   color: #f6f7f7;
+          //   opacity: 0.8;
+          //   line-height: 20pt;
+          h1 {
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            opacity: 0.9;
+            margin: 20px 0 10px 0;
+          }
+          p {
+            color: #f6f7f7;
+            opacity: 0.8;
+            line-height: 20pt;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

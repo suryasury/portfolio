@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 70px;
+  background-color: #24263a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-family: "Segoescript", sans-serif;
+    padding: 0px 40px;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out 0s;
+    color: white;
+    span {
+      color: #ff4a57;
+    }
+  }
+  .logo:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out 0s;
+  }
+  //   .navLinks {
+  //     padding: 0px 20px;
+  //     a {
+  //       text-decoration: none;
+  //       padding: 0px 40px;
+  //       transition: transform 0.2s;
+  //       color: black;
+  //       opacity: 0.5;
+  //       width: 100%;
+  //       height: 40px;
+  //     }
+  //     a:hover {
+  //       text-decoration: underline;
+  //       transform: scale(1.2);
+  //     }
+  //   }
+}

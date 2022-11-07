@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 70px 0;
+  background-color: #24263a;
+  scroll-behavior: smooth;
+  .aboutDescription {
+    padding: 0px 100px 0px 150px;
+    h1 {
+      font-weight: 700;
+      line-height: 60px;
+      color: #fff;
+      font-size: 3rem;
+      letter-spacing: 0.1ch;
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22pt;
+      letter-spacing: 0.2ch;
+      color: #fff;
+      opacity: 0.5;
+      margin-bottom: 20px;
+    }
+  }
+  .downloadButton {
+    width: 100%;
+    height: 60px;
+    // padding: 20px 0;
+    button {
+      margin-right: 10px;
+      width: 170px;
+      height: inherit;
+      outline: none;
+      border: none;
+      background-color: #ff4a57;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: 0.1ch;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: white;
+        .linkedinButtonText {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+
+  .profilePicContainer {
+    padding-right: 150px;
+    .profilePic {
+      border-radius: 50% 30% 40% 70%;
+      // position: absolute;
+      // border: 5px solid #ff4a57;
+      background-color: #ff4a57;
+      background-image: linear-gradient(to bottom, #ff4a57, #753a88);
+    }
+
+    // .blobWrapper {
+    //   display: grid;
+    // }
+  }
+  @media (max-width: 775px) {
+    .profilePicContainer {
+      padding-right: 0;
+    }
+    .aboutDescription {
+      padding: 20px 20px;
+    }
+    .downloadButton {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 775px) {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}

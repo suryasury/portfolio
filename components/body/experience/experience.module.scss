@@ -1,0 +1,96 @@
+.container {
+  background-color: #24263a;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .mainContent {
+    width: 80%;
+    padding: 50px 0 100px 0;
+    .header {
+      //   width: 50%;
+      h1 {
+        font-size: 3rem;
+        color: #ff4a57;
+        // color: #43a46f;
+      }
+      .underLine {
+        margin: 10px 0;
+        width: 8%;
+        height: 5px;
+        background-color: #ff4a57;
+        // background-color: #43a46f;
+      }
+    }
+
+    .companyContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      padding-top: 30px;
+      flex-wrap: nowrap;
+      .companyCards {
+        padding: 20px;
+        border-radius: 5px;
+        width: 100%;
+        background-color: #2b2d40;
+        .companyHeading {
+          margin: 20px 20px 20px 0;
+          h3 {
+            line-height: 24pt;
+            font-size: 24px;
+            .role {
+              color: #fff;
+            }
+            .companyName {
+              color: #ff4a57;
+              a {
+                text-decoration: none;
+                color: #ff4a57;
+              }
+              a:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          .range {
+            padding-top: 10px;
+            color: #fff;
+            opacity: 0.7;
+            font-size: 14px;
+          }
+        }
+        .details {
+          padding-left: 20px;
+          ul {
+            li {
+              font-size: 14px;
+              position: relative;
+              padding-left: 20px;
+              padding-top: 10px;
+              margin-bottom: 0;
+              color: #fff;
+              opacity: 0.8;
+              line-height: 22pt;
+              letter-spacing: 0.1ch;
+            }
+            li::before {
+              content: "▹";
+              position: absolute;
+              left: 0;
+              font-size: 24px;
+              color: #ff4a57;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 850px) {
+      .companyContainer {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
