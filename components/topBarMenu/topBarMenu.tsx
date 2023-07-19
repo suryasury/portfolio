@@ -39,16 +39,16 @@ export const HamburgerMenu = () => {
   useEffect(() => {
     if (dimension.width <= 600) {
       if (isMenuOpened && document.getElementById("nav-links")) {
-        let menu: HTMLElement = document.getElementById("nav-links");
+        let menu: any = document.getElementById("nav-links");
         menu.style.visibility = "unset";
         menu.style.display = "flex";
       } else if (document.getElementById("nav-links")) {
-        let menu: HTMLElement = document.getElementById("nav-links");
+        let menu: any = document.getElementById("nav-links");
         menu.style.visibility = "hidden";
         menu.style.display = "none";
       }
     } else {
-      let menu: HTMLElement = document.getElementById("nav-links");
+      let menu: any = document.getElementById("nav-links");
       menu.style.display = "flex";
       menu.style.visibility = "unset";
     }
