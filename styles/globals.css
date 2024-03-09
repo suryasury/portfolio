@@ -24,7 +24,7 @@ a {
     background: black;
   }
 } */
-
+/* 
 html,
 body,
 div,
@@ -113,7 +113,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -148,14 +147,14 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap"); */
 @font-face {
-  font-family: "Segoescript";
-  src: url("../assets/fonts/segoesc.ttf");
+  font-family: "Google Sans";
+  src: url("../assets/fonts/ProductSans-Regular.ttf");
 }
 html {
   scroll-behavior: smooth;
@@ -163,7 +162,7 @@ html {
 body {
   margin: 0px;
   /* font-family: "Lato", sans-serif; */
-  font-family: "Hind", sans-serif;
+  font-family: "Google Sans", sans-serif;
   scroll-behavior: smooth;
   /* letter-spacing: 0.1ch; */
 }
