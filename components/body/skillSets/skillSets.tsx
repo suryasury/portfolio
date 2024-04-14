@@ -28,9 +28,13 @@ export const SkillSets = () => {
             <div className={styles.cardContent}>
               <h1>NodeJS</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget diam at nulla commodo consectetur. Fusce sit amet
-                orci quis nunc maximus egestas.
+                I have extensive experience in Node.js, including building
+                scalable and efficient server-side applications. My expertise
+                includes working with asynchronous programming, event-driven
+                architecture, and popular Node.js frameworks. I've successfully
+                implemented RESTful APIs and integrated various databases in
+                projects. Additionally, I have a strong understanding of npm and
+                its ecosystem of libraries.
               </p>
             </div>
           </div>
@@ -52,9 +56,13 @@ export const SkillSets = () => {
             <div className={styles.cardContent}>
               <h1>Javascript</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget diam at nulla commodo consectetur. Fusce sit amet
-                orci quis nunc maximus egestas.
+                I have deep expertise in JavaScript, covering both client-side
+                and server-side development. My experience includes working with
+                modern ES6+ features and asynchronous programming patterns such
+                as Promises and async/await. I'm skilled in using JavaScript
+                frameworks like React for building dynamic and responsive
+                front-end applications. I also excel at integrating JavaScript
+                with various APIs and third-party services
               </p>
             </div>
           </div>
@@ -76,9 +84,14 @@ export const SkillSets = () => {
             <div className={styles.cardContent}>
               <h1>ReactJS</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget diam at nulla commodo consectetur. Fusce sit amet
-                orci quis nunc maximus egestas.
+                I have strong experience in React, where I've built dynamic and
+                interactive user interfaces for web applications. My expertise
+                includes working with React components, hooks, and state
+                management libraries like Redux. I excel at creating efficient
+                and reusable components, optimizing performance, and ensuring a
+                seamless user experience. Additionally, I'm skilled in
+                integrating React applications with various back-end services
+                and APIs.
               </p>
             </div>
           </div>
@@ -104,9 +117,16 @@ export const SkillSets = () => {
             <div className={styles.cardContent}>
               <h1>Amazon Web Services</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget diam at nulla commodo consectetur. Fusce sit amet
-                orci quis nunc maximus egestas.
+                I have experience with AWS services, including Lambda, EC2,
+                EventBridge, CloudFormation, S3, DynamoDB, and OpenSearch. My
+                expertise includes building serverless applications using Lambda
+                functions and orchestrating workflows with EventBridge. I have
+                proficiency in deploying and managing infrastructure as code
+                with CloudFormation. I'm skilled in optimizing data storage and
+                retrieval using S3 and DynamoDB, and I've integrated OpenSearch
+                for advanced search capabilities. My knowledge of AWS services
+                allows me to architect scalable, efficient, and secure cloud
+                solutions.
               </p>
             </div>
           </div>
@@ -125,9 +145,15 @@ export const SkillSets = () => {
             <div className={styles.cardContent}>
               <h1>Git</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent eget diam at nulla commodo consectetur. Fusce sit amet
-                orci quis nunc maximus egestas.
+                I have strong expertise in Git, which I've used extensively for
+                version control and collaborative development. My experience
+                includes using Git for branching, merging, and resolving
+                conflicts effectively. I am proficient in managing remote
+                repositories, such as those on GitHub or GitLab, for seamless
+                collaboration with team members. I also excel in creating
+                meaningful commit messages, reviewing code changes, and
+                utilizing Git's powerful tools for maintaining a clean and
+                efficient codebase.
               </p>
             </div>
           </div>

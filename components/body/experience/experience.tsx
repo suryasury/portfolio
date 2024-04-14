@@ -14,7 +14,7 @@ export const Experience = () => {
                 <span className={styles.role}>Software Engineer</span>{" "}
                 <span className={styles.companyName}>
                   @{" "}
-                  <a target="_blank" href="https://www.wealth42.com">
+                  <a target="_blank" href="https://censanext.com/">
                     CensaNext
                   </a>
                 </span>
@@ -24,12 +24,15 @@ export const Experience = () => {
             <div className={styles.details}>
               <ul>
                 <li>
-                  Delivered performance-driven and user-centric websites that
-                  met all business requirements.
+                  Leading a team of five members responsible for developing a
+                  critical logistics flow for the supply chain. By coordinating
+                  with stakeholders and guiding the team effectively.
                 </li>
                 <li>
-                  Created website that serves as dashboard/utility for
-                  operational excellence of core product.
+                  I have successfully optimized code and queries to
+                  significantly improve the performance of applications. My
+                  efforts have resulted in faster response times and enhanced
+                  overall efficiency, benefiting both users and the business.
                 </li>
                 {/* <li>
                   Increased customer satisfaction by resolving various bugs and

@@ -1,3 +1,4 @@
+import Script from "next/script";
 import styles from "./footer.module.scss";
 
 export const Footer = () => {
@@ -82,6 +83,29 @@ export const Footer = () => {
           </a>
         </div>
       </div>
+      {/* <div>
+        <Script
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          async
+          defer
+          strategy="lazyOnload"
+          type="text/javascript"
+        ></Script>
+        <div
+          className="badge-base LI-profile-badge"
+          data-locale="en_US"
+          data-size="medium"
+          data-theme="dark"
+          data-type="VERTICAL"
+          data-vanity="surya-a-5050611b7"
+          data-version="v1"
+        >
+          <a
+            className="badge-base__link LI-simple-link"
+            href="https://in.linkedin.com/in/surya-a-5050611b7?trk=profile-badge"
+          ></a>
+        </div>
+      </div> */}
       <div className={styles.credit}>
         <a href="https://github.com/suryasury/portfolio" target="_blank">
           {" "}

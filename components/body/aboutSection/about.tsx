@@ -19,7 +19,7 @@ export const MainContent = () => {
             services, and a range of programming utilities. Knowledgeable at
             translating customer requirements into testable engineering plans.
             Collaborative Team player with excellent technical abilities
-            offering 1.5+ years of related experience.
+            offering 3 years and 6 months of related experience.
           </p>
           <div className={styles.downloadButton}>
             <button>Download resume</button>

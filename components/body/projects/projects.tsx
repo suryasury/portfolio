@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./projects.module.scss";
 import PosImage from "../../../assets/images/pos_image.jpg";
+import LogisticsImage from "../../../assets/images/logistics.png";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 export const Projects = () => {
   return (
@@ -24,16 +25,14 @@ export const Projects = () => {
               <h3>Point of sale software</h3>
               <div className={styles.projectDescription}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  commodo tortor nec arcu sollicitudin hendrerit. Nunc pretium
-                  at tellus in sagittis. Sed rutrum posuere magna sodales
-                  condimentum. Nullam id arcu quam. Cras scelerisque sit amet
-                  est non convallis. Aenean in consequat quam. Nunc quis turpis
-                  sollicitudin,
+                  I developed a POS software from the ground up, covering both
+                  front-end and back-end aspects. By taking complete ownership
+                  of the project, I delivered the MVP ahead of schedule and
+                  continuously made improvements to enhance the user experience.
                 </p>
               </div>
               <ul className={styles.techList}>
-                <li>React</li>
+                <li>ReactJs</li>
                 <li>NodeJS</li>
                 <li>DynamoDB</li>
                 <li>Lambda</li>
@@ -57,30 +56,28 @@ export const Projects = () => {
           <div className={styles.projectCard} style={{ marginTop: "30px" }}>
             <div className={styles.projectContent}>
               <div className={styles.projectHeading}>
-                <p>Ghoshak POS </p>{" "}
+                <p>Logistics Portal</p>{" "}
                 <div className={styles.projectLink}>
-                  <a href="https://billing.ghoshak.store">
+                  <a href="https://naga-logistics.censanext.com">
                     <OpenInNewIcon />
                   </a>
                 </div>
               </div>
-              <h3>Point of sale software</h3>
+              <h3>Logistics Solution in SCM</h3>
               <div className={styles.projectDescription}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  commodo tortor nec arcu sollicitudin hendrerit. Nunc pretium
-                  at tellus in sagittis. Sed rutrum posuere magna sodales
-                  condimentum. Nullam id arcu quam. Cras scelerisque sit amet
-                  est non convallis. Aenean in consequat quam. Nunc quis turpis
-                  sollicitudin,
+                  I designed and implemented a logistics solution, leading a
+                  team to optimize supply chain flow. By collaborating with
+                  multiple teams, I ensured seamless integration with other
+                  services, improving operational efficiency across the supply
+                  chain.
                 </p>
               </div>
               <ul className={styles.techList}>
-                <li>React</li>
+                <li>ReactJS</li>
                 <li>NodeJS</li>
-                <li>DynamoDB</li>
-                <li>Lambda</li>
-                <li>Cognito</li>
+                <li>MongoDB</li>
+                <li>MySql</li>
               </ul>
             </div>
 
@@ -89,15 +86,15 @@ export const Projects = () => {
                 <div style={{ maxWidth: "700px", display: "block" }}>
                   <Image
                     className={styles.projectImage}
-                    src={PosImage}
-                    alt="posImage"
+                    src={LogisticsImage}
+                    alt="logistics image"
                     layout="responsive"
                   />
                 </div>
               </a>
             </div>
           </div>
-          <div className={styles.projectCard} style={{ marginTop: "30px" }}>
+          {/* <div className={styles.projectCard} style={{ marginTop: "30px" }}>
             <div className={styles.projectContent}>
               <div className={styles.projectHeading}>
                 <p>Ghoshak POS </p>{" "}
@@ -110,12 +107,10 @@ export const Projects = () => {
               <h3>Point of sale software</h3>
               <div className={styles.projectDescription}>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  commodo tortor nec arcu sollicitudin hendrerit. Nunc pretium
-                  at tellus in sagittis. Sed rutrum posuere magna sodales
-                  condimentum. Nullam id arcu quam. Cras scelerisque sit amet
-                  est non convallis. Aenean in consequat quam. Nunc quis turpis
-                  sollicitudin,
+                  I developed a POS software from the ground up, covering both
+                  front-end and back-end aspects. By taking complete ownership
+                  of the project, I delivered the MVP ahead of schedule and
+                  continuously made improvements to enhance the user experience.
                 </p>
               </div>
               <ul className={styles.techList}>
@@ -139,7 +134,7 @@ export const Projects = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
